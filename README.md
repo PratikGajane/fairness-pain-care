@@ -35,7 +35,7 @@ fairness-pain-care/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/fairness-pain-care.git
+git clone https://github.com/PratikGajane/fairness-pain-care.git
 cd fairness-pain-care
 ```
 
@@ -219,3 +219,4 @@ GNU General Public License v3.0
 ## Acknowledgments
 
 This work uses data from the clinical trial: Piette et al. (2022) Dataset available at: https://data.mendeley.com/datasets/33mkbm32dz/1
+
