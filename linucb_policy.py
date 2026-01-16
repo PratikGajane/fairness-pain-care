@@ -17,14 +17,14 @@ class LinUCB(Policy2Base):
     inheriting from Policy2Base.
     """
     
-    def __init__(self, n_actions=3, n_features=8, alpha=1.0, random_seed=None):
+    def __init__(self, n_actions=3, n_features=8, alpha=0.3, random_seed=None):
         """
         Initialize LinUCB.
         
         Args:
             n_actions (int): Number of actions (recommendations). Default is 3.
             n_features (int): Maximum number of features. Default is 8.
-            alpha (float): Exploration parameter. Default is 1.0.
+            alpha (float): Exploration parameter. Default is 0.3
             random_seed (int): Random seed for reproducibility. Default is None.
         """
         super().__init__(n_actions, n_features)
