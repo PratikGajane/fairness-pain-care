@@ -190,7 +190,7 @@ class RealDataEnvironment:
 ### LinUCB
 - `n_actions` (int): Number of recommendations (default: 3)
 - `n_features` (int): Number of features (default: 8)
-- `alpha` (float): Exploration parameter (default: 1.0)
+- `alpha` (float): Exploration parameter (default: 0.3)
 
 ### MetaAlgorithm
 - `fairness_weight` (float): Weight for fairness (0 to 1, default: 0.5)
@@ -219,4 +219,5 @@ GNU General Public License v3.0
 ## Acknowledgments
 
 This work uses data from the clinical trial: Piette et al. (2022) Dataset available at: https://data.mendeley.com/datasets/33mkbm32dz/1
+
 
